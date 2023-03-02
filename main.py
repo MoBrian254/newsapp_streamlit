@@ -43,5 +43,10 @@ if btn:
 
         if article['description']:
             st.write(article['description'])
+        
+git = 'https://github.com/MoBrian254'
+linkdin = 'https://www.linkedin.com/in/brian-owana-web-developer/'
+portfolio = 'https://mobrian-portfolio-01.vercel.app/'
+st.markdown(f"<span>Follow me: <a href={git} target='_blank'>@Github</a> | <a href='{linkdin}' target='_blank'>@LinkedIn</a> | <a href='{portfolio}' target='_blank'>@Portfolio</a></span>", unsafe_allow_html=True)
 
 
